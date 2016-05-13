@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0F91FB7C-6B99-42F6-AC31-01811F2DA34C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PilotProject.Domain</RootNamespace>
+    <AssemblyName>PilotProject.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Autofac">
+      <HintPath>..\packages\Autofac.3.5.2\lib\net40\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Aeronautical\Aerodrome.cs" />
+    <Compile Include="Aeronautical\AerodromeId.cs" />
+    <Compile Include="Aeronautical\ArpCoordinate.cs" />
+    <Compile Include="Aeronautical\Declination.cs" />
+    <Compile Include="Aeronautical\HostIdentifier.cs" />
+    <Compile Include="Aeronautical\IcaoCode.cs" />
+    <Compile Include="Aeronautical\Latitude.cs" />
+    <Compile Include="Aeronautical\Location.cs" />
+    <Compile Include="Aeronautical\LocationId.cs" />
+    <Compile Include="Aeronautical\Longitude.cs" />
+    <Compile Include="Aeronautical\Runway.cs" />
+    <Compile Include="Aeronautical\RunwayId.cs" />
+    <Compile Include="Aeronautical\RunwayIdentifier.cs" />
+    <Compile Include="Approaches\Approach.cs" />
+    <Compile Include="Approaches\ApproachId.cs" />
+    <Compile Include="Approaches\Criteria.cs" />
+    <Compile Include="Approaches\LandingType.cs" />
+    <Compile Include="Approaches\PublishedName.cs" />
+    <Compile Include="Approaches\Repositories\IApproachRepository.cs" />
+    <Compile Include="BoilerPlate\Entity.cs" />
+    <Compile Include="BoilerPlate\ValueObject.cs" />
+    <Compile Include="DomainEvent.cs" />
+    <Compile Include="DomainEvents.cs" />
+    <Compile Include="HandlerServiceLocator.cs" />
+    <Compile Include="IEventHandler.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Segments\Esa.cs" />
+    <Compile Include="Segments\EsaId.cs" />
+    <Compile Include="Segments\Events\EsaRadiusWasUpdatedEvent.cs" />
+    <Compile Include="Segments\Radius.cs" />
+    <Compile Include="Segments\Repositories\IEsaRepository.cs" />
+    <Compile Include="Violations\Classification.cs" />
+    <Compile Include="Violations\Explaination.cs" />
+    <Compile Include="Violations\Repository\IViolationRepository.cs" />
+    <Compile Include="Violations\Violation.cs" />
+    <Compile Include="Violations\ViolationId.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PilotProject.Utilities\PilotProject.Utilities.csproj">
+      <Project>{03399755-9757-4596-a1c9-d916a4b935e1}</Project>
+      <Name>PilotProject.Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

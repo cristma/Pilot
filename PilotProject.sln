@@ -1,0 +1,112 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PilotProject.Domain", "PilotProject.Domain\PilotProject.Domain.csproj", "{0F91FB7C-6B99-42F6-AC31-01811F2DA34C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PilotProject.Evaluation", "PilotProject.Evaluation\PilotProject.Evaluation.csproj", "{FB1B8DFD-216F-4C98-A14A-C8214E9249CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PilotProject.Calculation", "PilotProject.Calculation\PilotProject.Calculation.csproj", "{FDB08A63-3CBD-4CBD-A87A-AFC97519E8FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PilotProject.ObstacleAnalysis", "PilotProject.ObstacleAnalysis\PilotProject.ObstacleAnalysis.csproj", "{C5C6B6F7-338C-47E4-AED8-48A9F1EB4F27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PilotProject.Construction", "PilotProject.Construction\PilotProject.Construction.csproj", "{4DC2D77F-6347-405E-A17D-D216CC0B4750}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PilotProject.ApplicationServices", "PilotProject.ApplicationServices\PilotProject.ApplicationServices.csproj", "{1F1A81A4-F20B-4A0E-8EBF-18CEB79571FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PilotProject.Presentation", "PilotProject.Presentation\PilotProject.Presentation.csproj", "{22D39F4D-6891-4BF1-84BA-B9B6D555217F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PilotProject.Infrastructure", "PilotProject.Infrastructure\PilotProject.Infrastructure.csproj", "{1706C307-302F-4C6C-B4B9-4731C3667E21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PilotProject.Utilities", "PilotProject.Utilities\PilotProject.Utilities.csproj", "{03399755-9757-4596-A1C9-D916A4B935E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console", "Console\Console.csproj", "{6AA58E69-3861-4A91-99B9-86A79EED0124}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 11
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://mcrist.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = PilotProject.Domain\\PilotProject.Domain.csproj
+		SccProjectName1 = PilotProject.Domain
+		SccLocalPath1 = PilotProject.Domain
+		SccProjectUniqueName2 = PilotProject.Evaluation\\PilotProject.Evaluation.csproj
+		SccProjectName2 = PilotProject.Evaluation
+		SccLocalPath2 = PilotProject.Evaluation
+		SccProjectUniqueName3 = PilotProject.Calculation\\PilotProject.Calculation.csproj
+		SccProjectName3 = PilotProject.Calculation
+		SccLocalPath3 = PilotProject.Calculation
+		SccProjectUniqueName4 = PilotProject.ObstacleAnalysis\\PilotProject.ObstacleAnalysis.csproj
+		SccProjectName4 = PilotProject.ObstacleAnalysis
+		SccLocalPath4 = PilotProject.ObstacleAnalysis
+		SccProjectUniqueName5 = PilotProject.Construction\\PilotProject.Construction.csproj
+		SccProjectName5 = PilotProject.Construction
+		SccLocalPath5 = PilotProject.Construction
+		SccProjectUniqueName6 = PilotProject.ApplicationServices\\PilotProject.ApplicationServices.csproj
+		SccProjectName6 = PilotProject.ApplicationServices
+		SccLocalPath6 = PilotProject.ApplicationServices
+		SccProjectUniqueName7 = PilotProject.Presentation\\PilotProject.Presentation.csproj
+		SccProjectName7 = PilotProject.Presentation
+		SccLocalPath7 = PilotProject.Presentation
+		SccProjectUniqueName8 = PilotProject.Infrastructure\\PilotProject.Infrastructure.csproj
+		SccProjectName8 = PilotProject.Infrastructure
+		SccLocalPath8 = PilotProject.Infrastructure
+		SccProjectUniqueName9 = PilotProject.Utilities\\PilotProject.Utilities.csproj
+		SccProjectName9 = PilotProject.Utilities
+		SccLocalPath9 = PilotProject.Utilities
+		SccProjectUniqueName10 = Console\\Console.csproj
+		SccProjectName10 = Console
+		SccLocalPath10 = Console
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F91FB7C-6B99-42F6-AC31-01811F2DA34C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F91FB7C-6B99-42F6-AC31-01811F2DA34C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F91FB7C-6B99-42F6-AC31-01811F2DA34C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F91FB7C-6B99-42F6-AC31-01811F2DA34C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB1B8DFD-216F-4C98-A14A-C8214E9249CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB1B8DFD-216F-4C98-A14A-C8214E9249CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB1B8DFD-216F-4C98-A14A-C8214E9249CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB1B8DFD-216F-4C98-A14A-C8214E9249CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDB08A63-3CBD-4CBD-A87A-AFC97519E8FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDB08A63-3CBD-4CBD-A87A-AFC97519E8FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDB08A63-3CBD-4CBD-A87A-AFC97519E8FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDB08A63-3CBD-4CBD-A87A-AFC97519E8FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5C6B6F7-338C-47E4-AED8-48A9F1EB4F27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5C6B6F7-338C-47E4-AED8-48A9F1EB4F27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5C6B6F7-338C-47E4-AED8-48A9F1EB4F27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5C6B6F7-338C-47E4-AED8-48A9F1EB4F27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DC2D77F-6347-405E-A17D-D216CC0B4750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DC2D77F-6347-405E-A17D-D216CC0B4750}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DC2D77F-6347-405E-A17D-D216CC0B4750}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DC2D77F-6347-405E-A17D-D216CC0B4750}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F1A81A4-F20B-4A0E-8EBF-18CEB79571FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F1A81A4-F20B-4A0E-8EBF-18CEB79571FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F1A81A4-F20B-4A0E-8EBF-18CEB79571FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F1A81A4-F20B-4A0E-8EBF-18CEB79571FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22D39F4D-6891-4BF1-84BA-B9B6D555217F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22D39F4D-6891-4BF1-84BA-B9B6D555217F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22D39F4D-6891-4BF1-84BA-B9B6D555217F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22D39F4D-6891-4BF1-84BA-B9B6D555217F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1706C307-302F-4C6C-B4B9-4731C3667E21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1706C307-302F-4C6C-B4B9-4731C3667E21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1706C307-302F-4C6C-B4B9-4731C3667E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1706C307-302F-4C6C-B4B9-4731C3667E21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03399755-9757-4596-A1C9-D916A4B935E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03399755-9757-4596-A1C9-D916A4B935E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03399755-9757-4596-A1C9-D916A4B935E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03399755-9757-4596-A1C9-D916A4B935E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AA58E69-3861-4A91-99B9-86A79EED0124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AA58E69-3861-4A91-99B9-86A79EED0124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AA58E69-3861-4A91-99B9-86A79EED0124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AA58E69-3861-4A91-99B9-86A79EED0124}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

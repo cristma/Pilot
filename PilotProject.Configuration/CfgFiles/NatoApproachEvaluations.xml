@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Evaluations>
+  <Evaluation Name="ApproachPublishedNameHasAerodromeHostIdentifier">
+    <Violation Type="WARNING" Message="The published name for an approach must have the host identifier as a part of its composition." />
+  </Evaluation>
+</Evaluations>
